@@ -1,0 +1,22 @@
+name = "identify-provider-extension"
+client_id = "your-client-id"
+application_url = "https://your-app-domain.com"
+embedded = true
+
+[access_scopes]
+# Read customer data
+scopes = "read_customers"
+
+[webhooks]
+api_version = "2023-01"
+
+[auth]
+redirect_urls = [
+  "https://your-app-domain.com/auth/callback",
+  "https://your-app-domain.com/identify"
+]
+
+[app_extensions]
+[[app_extensions.targeting]]
+target = "admin.customer.list"
+module = "./app-extension.js" 
