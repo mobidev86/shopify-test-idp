@@ -8,7 +8,7 @@
 (function() {
     // Configuration
     const config = {
-        identifyProviderUrl: 'https://your-app-domain.com/identify', // Replace with your actual domain
+        identifyProviderUrl: 'https://shopify-test.acquaintsoft.com/identify', // Replace with your actual domain
         buttonText: 'Identify',
         buttonClass: 'identify-provider-btn',
     };
