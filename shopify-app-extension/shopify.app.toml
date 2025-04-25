@@ -1,4 +1,4 @@
-name = "identify-provider-extension"
+name = "jilesh"
 client_id = "04211a6555924a300119d2ab22b99342"
 application_url = "https://shopify-test.acquaintsoft.com"
 embedded = true
@@ -8,7 +8,7 @@ embedded = true
 scopes = "read_customers"
 
 [webhooks]
-api_version = "2023-01"
+api_version = "2025-04"
 
 [auth]
 redirect_urls = [

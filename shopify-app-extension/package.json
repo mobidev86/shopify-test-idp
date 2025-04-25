@@ -1,0 +1,19 @@
+{
+  "name": "jilesh",
+  "version": "1.0.0",
+  "description": "Shopify Identify Provider Extension",
+  "main": "app-extension.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "dev": "echo 'No dev step required'"
+  },
+  "dependencies": {
+    "@shopify/ui-extensions": "2025.4.0",
+    "@shopify/ui-extensions-react": "2025.4.0",
+    "@shopify/web-pixels-extension": "^0.1.0",
+    "react": "^18.3.1",
+    "react-reconciler": "0.29.0"
+  },
+  "author": "",
+  "license": "MIT"
+}
